@@ -1,0 +1,93 @@
+/*estilos globais do corpo da página*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/*estilos do cabeçalho principal*/
+header {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*menu de navegação customizado*/
+.navbar-custom {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*cards de produtos com efeito hover*/
+.produto-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+}
+
+/*imagens dos produtos*/
+.produto-img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*cards de serviços com gradiente*/
+.servico-card {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/*container para formulários*/
+.form-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/*rodapé da página*/
+footer {
+    background: #343a40;
+    color: white;
+    margin-top: 50px;
+}
+
+/*animação de fade-in para elementos*/
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+/*relógio digital no cabeçalho*/
+#relogio {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #28a745;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
